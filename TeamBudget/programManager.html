@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="programManager.js">
+
+    </script>
+     <!-- <script src="manager.js">
+
+    </script> -->
+    <style>
+        table {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        #row{
+            background-color: antiquewhite;
+        }
+        </style>
+   
+</head>
+<body>
+    <h2> Program Manager</h2>
+    
+        
+     <form>
+     <div class="row">
+        <div class="col-25">
+          <label for="name">Client Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="clientName" name="Client Name" placeholder="Client Name">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="name">Project Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="projectName" name="Project Name" placeholder="Project Name">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="number">Budget</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="Budget" name="Budget" placeholder="Budget">
+        </div>
+      </div>
+      <input type="button" value="Add" onclick="onFormSubmit()"/><br/>
+      <input type="reset" value="clear">
+      <button onclick="goBack()">Go Back</button>
+
+      <script>
+      function goBack() {
+        window.history.back();
+      }
+      </script>
+    <!-- <input type="reset" value="clear"> -->
+    </form>
+    <!-- <table id="programManager" border="">
+        <thead>
+        <tr>
+        <th>Client Name</th>
+        <th>Project Name</th>
+        <th>Budget</th>
+        </tr>
+        </thead>
+        <tbody>
+        
+        </tbody>
+        </table> 
+     -->
+</body>
+</html>
+ 
+
+
+
+
