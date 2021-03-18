@@ -1,0 +1,71 @@
+#d1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    animation-name: ball1;
+    animation-duration: 10s;
+  }
+  
+  /* @keyframes ball1 {
+    0%   {background-color:red; left:0px; nav-down:0px;}
+    50%  {background-color:white; left:200px; nav-down:0px;}
+    100% {background-color:blue; left:0px; nav-down:0px;}
+  } */
+  @keyframes ball1 {
+    from {transform: translate(0px, 0px);background-color:red;}
+    50% {transform: translate(500px, 500%);background-color:white;}
+    to {transform: translate(1000%, 1000%);background-color:blue;}
+  }
+  #d2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 50%;
+    animation-name: ball2;
+    animation-duration: 10s;
+  }
+  
+  /* @keyframes ball1 {
+    0%   {background-color:red; left:0px; nav-down:0px;}
+    50%  {background-color:white; left:200px; nav-down:0px;}
+    100% {background-color:blue; left:0px; nav-down:0px;}
+  } */
+  @keyframes ball2 {
+    from {transform: translate(1000%, 1000%);background-color:blue;}
+    50% {transform: translate(500px, 500%);background-color:white;}
+    to {transform: translate(0px, 0px);background-color:red;}
+  }
+
+  #d3{
+    
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 50%;
+    animation-name: ball3;
+    animation-duration: 4s;
+  }
+  @keyframes ball3 {
+    from {transform: translate(0px, 0px);background-color:red;}
+    50% {transform: translatex(500px, 500%);background-color:white;}
+    to {transform: translatex(1000%, 1000%);background-color:blue;}
+  }
+  #d4{
+    
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 50%;
+    animation-name: ball2;
+    animation-duration: 4s;
+  }
+  @keyframes ball4 {
+    from {transform: translatex(1000%, 1000%);background-color:yellow;}
+    50% {transform: translate(500px, 500%);background-color:white;}
+    to {transform: translate(0px, 0px);background-color:green;}
+  }

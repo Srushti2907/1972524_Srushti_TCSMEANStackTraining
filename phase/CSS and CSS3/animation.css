@@ -1,0 +1,22 @@
+div{
+    padding:20px;
+    border: solid red 2px;
+    margin: 10px;
+    width: 120px;
+    height:150px;
+    float: left;
+    font-size: 10px;
+    animation-name: myanimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    }
+
+    @keyframes myanimation{
+        0%{background-color: salmon;}
+        25%{background-color: seagreen;}
+        50%{background-color: springgreen;}
+        75%{background-color: brown;}
+        100%{background-color: cyan;}
+    }
+
+    
