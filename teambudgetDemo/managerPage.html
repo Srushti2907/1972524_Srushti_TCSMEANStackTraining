@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="manager.js"></script>
+</head>
+<body>
+    <h2>Employee Details</h2>
+    <form>
+        <label>Client name</label>
+        <input type="text" name="clientName" id="clientName"><br/>
+        <label>Project name</label>
+        <input type="text" name="projectName" id="projectName"><br/>
+        <label>Budget</label>
+        <input type="text" name="Budget" id="Budget"><br/>
+        <input type="button" value="Add Details" onclick="onFormSubmit()" />
+        <input type="button" value="Save In Session" onclick="storeInSession()"/>
+        <input type="button" value="retrieve from session" onclick="retrieveFromSession()"/>
+    </form>
+    <hr/>
+    <table id="employeeDetails">
+        <thead>
+            <tr>
+                <th>Client name</th>
+                <th>Project name</th>
+                <th>Budget</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+
+<a href="finanace.html">Home Page</a>
+
+</html>
