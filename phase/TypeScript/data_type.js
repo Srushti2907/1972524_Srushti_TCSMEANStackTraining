@@ -1,0 +1,13 @@
+var m = 100;
+var d = 1000.10;
+var fname = "Ajay kumar";
+var res = true;
+var n = 100;
+var id;
+var stdName;
+var age;
+id = 123;
+var msg;
+stdName = "Maheshkumar";
+age = 24;
+msg = "srushti patel";
