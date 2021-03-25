@@ -1,0 +1,30 @@
+<div>
+
+    <h2> Sign Up Form</h2>
+    <form [formGroup]="signRef" (ngSubmit)="checkSignUp(signRef.value)">
+        <label>FirstName</label>
+    <input  type="text" name="fname" formControlName="fname"/><br/>
+        <label>LastName</label>
+    <input  type="text" name="lname" formControlName="lname"/><br/>
+    
+        <label>UserName</label>
+        <input type="text" name="user" formControlName="user"/><br/>
+    
+        <label>Password</label>
+        <input type="password" name="pass" formControlName="pass"/><br/>
+        <input type ="submit" value="Register"/>
+        <input type ="reset" value="reset"/><br/>
+    
+    
+    </form>
+    
+    
+    
+    
+    </div>
+
+
+
+       
+
+

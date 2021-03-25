@@ -1,0 +1,39 @@
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+ <h2> Wel-come To My Portfolio</h2>
+    <form [formGroup]="portfolioRef" (ngSubmit)="checkDetails(portfolioRef.value)">
+        <label>Contact Name</label>
+    <input  type="text" name="contactName" formControlName="fname"/><br/>
+        <label>Phone Number</label>
+    <input  type="number" name="phoneNumber" formControlName="phoneNumber"/><br/>
+    
+    <input type ="submit" value="Save"/> 
+
+    
+    
+    </form>
+    <h1>Welcome{{fname}}</h1>
+    
+            
+            <table style="width:100%">
+                <tr>
+                    <th>ContactName</th>
+                    <th>phoneNumber</th>
+                    
+                </tr>
+                <tr>
+                    <td>{{fname}}</td>
+                    <td>{{phoneNumber}}</td>
+                    
+                </tr>
+                <tr *ngFor="let entry of result ">
+                    <td>{{entry.fname}}</td>
+                    <td>{{entry.phoneNumber}}</td>
+                   
+                </tr>
+            </table>
+    
+            
+    
+        </div>
+    </div>
