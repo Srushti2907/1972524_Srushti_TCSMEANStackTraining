@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="budgetTableCreator.js"></script>
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: MediumSeaGreen">
+  <ul>
+    <p style="font-size: 350%; text-align: center;">Budget Planner</p></br>
+    <a href="#one" style="font-size: 150%; font-family: Monaco; ">Team Manager's Page</a> </br> </br>
+    <a href="#two" style="font-size: 150%; font-family: Monaco; ">Financial Planner's Page</a>
+  </ul>
+
+  <div class="page" id="one" style="background-color: MediumSeaGreen; margin-left: 50px;">
+    <p style="font-size: 350%; text-align: center;">Team Managers</p></br>
+<form>
+    <label style="font-size: 150%; font-family: Monaco; ">Client Name </label>
+    <input type="text" id="clientName" style="font-size: 150%;"/><br/>
+    <label style="font-size: 150%; font-family: Monaco; ">Project Name </label>
+    <input type="text" id="projectName" style="font-size: 150%;"/><br/>
+    <label style="font-size: 150%; font-family: Monaco; ">Budget </label>
+    <input type="number" id="budget" style="font-size: 150%;"/><br/>
+    <input type="button" value="Submit" onclick="submitData()" style="font-size: 150%;"/><br/><br>
+    <a href="#" style="font-size: 150%; font-family: Monaco; ">Back</a><br>
+    <a href="#two" style="font-size: 150%; font-family: Monaco; ">Financial Planner's Page</a>
+  </div>
+
+  <div class="page" id="two" style="background-color: MediumSeaGreen; margin-left: 50px;">
+    <p style="font-size: 350%; text-align: center;">Financial Planners</p></br>
+    <table id="newData" border=1 frame=void scope="col" style=" font-size: 1.7em; text-align: center; background-color: White;">
+       <thead>
+           <tr>
+               <th style="font-size: 150%; font-family: Monaco; ">Client Name</th>
+               <th style="font-size: 150%; font-family: Monaco; ">Project Name</th>
+               <th style="font-size: 150%; font-family: Monaco; ">Budget</th>
+           </tr>
+       </thead>
+       <tbody>
+       </tbody>
+    </table><br>
+    <a href="#" style="font-size: 150%; font-family: Monaco; ">Back</a><br>
+    <a href="#one" style="font-size: 150%; font-family: Monaco; ">Team Manager's Page</a>
+  </div>
+</body>
+</html>
