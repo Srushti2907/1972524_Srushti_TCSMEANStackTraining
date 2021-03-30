@@ -1,0 +1,38 @@
+<div>
+    <mat-grid-list cols="2" rowHeight="1:1">
+    <h2> Add To-Do-List </h2>
+    <form #taskRef="ngForm"(ngSubmit)="storeUser(taskRef.value)">
+        <mat-form-field appearance="fill">
+            <mat-label>Id</mat-label>
+            <input matInput type ="text"name="id" ngModel />
+        </mat-form-field>
+        <br/>
+        <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput type ="text" name="name" ngModel/>
+        </mat-form-field>
+        <br/>
+        <mat-form-field appearance="fill">
+            <mat-label>Task</mat-label>
+            <input matInput type ="text" name="task" ngModel/>
+        </mat-form-field>
+        <br/>
+        <mat-form-field appearance="fill">
+            <mat-label>DeadLine</mat-label>
+            <input matInput type ="text" name="deadline" ngModel/>
+        </mat-form-field>
+        <br/>
+
+        <button mat-stroked-button color ="primary" style="background-color: lightcoral;"type="submit" >Submit</button>
+</form>
+
+
+</mat-grid-list>
+
+
+<hr>
+</div>
+
+
+
+

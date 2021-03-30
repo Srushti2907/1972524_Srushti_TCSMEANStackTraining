@@ -1,0 +1,16 @@
+h2{
+    background-color: plum;
+}
+      table {
+        width: 100%;
+      }
+      
+      mat-icon {
+        cursor: pointer;
+      }
+
+      th.mat-sort-header-sorted {
+        color: black;
+      }
+    
+    
