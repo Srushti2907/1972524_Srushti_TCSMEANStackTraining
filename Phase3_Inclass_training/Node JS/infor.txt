@@ -1,0 +1,3 @@
+welcome to node js FS Module to store data to filenext msg
+ next msg
+ next msg
